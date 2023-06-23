@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Metrophobic&family=Nanum+Pen+Script&family=Raleway:wght@300;500&family=Rubik:wght@400;600&family=Work+Sans:wght@200;300;400&display=swap');
+
+:root{
+
+    --color-fondo: #1b1c1d;
+    --bg-header:#242628;
+    --txt-navbar:#e8e8e8;
+    --bg-form:#2a2d31;
+    --btn-agregar:#5ad16e;
+    --txt-btn:#1b1c1d;
+    --btn-fallo:#d2214f;
+    --bg-box-categorias:#242628;
+    --txt-box-categorias:#ffffff;
+    --borde-tabla-lista:#e8e8e8;
+    --cuerpo-tabla:#e8e8e8;
+    --bg-th-listado:#ccc;
+    --bg-form-agregar:#2a2d31;
+    --bg-tabla-prev:#2a2d31;
+    --txt-tabla-prev:#ccc;
+    --h1: #e8e8e8;
+    --btn-form: #9bb3cb;
+  }
+/* Estilos generales */
+body {
+    background-color: var(--color-fondo);
+    padding: 0;
+    margin: 0;
+    font-family: 'kanit', arial;
+    margin-top: 80px;
+  }
+  
+  h1 {
+    font-family: 'Rubik','Work Sans','metrophobic', Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color: var(--h1);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+  }
+  /*Header*/
+  header {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: var(--txt-header);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    text-align: center;
+    position: fixed;
+    background-color: var(--bg-header);
+}
+.navbar-item, .navbar-item a {
+    flex: 1;
+    width: 320px;
+    height: auto;
+    text-decoration: none;
+    color: var(--txt-navbar);
+    font-size: 20px;
+    font-family: 'Rubik','Work Sans','metrophobic', Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  }
+
+  #formulario-login {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg-form);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  #formulario-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--btn-form);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 5px auto 15px auto;
+  }
+  #btn-agregar {
+    width: 30%;
+    padding: 10px;
+    background-color: var(--btn-agregar);
+    color: var(--txt-btn);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .tabla-listado button{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--btn-fallo);
+    color: var(--txt-btn);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Index*/
+
+.logout-button {
+    margin-top: 20px;
+}
+#categorias-indice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .category-box {
+    width: 500px;
+    height: 200px;
+    background-color: var(--bg-box-categorias);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 300ms;
+    text-decoration: none;
+    color: var(--txt-box-categorias);
+    font-size: 34px;
+  }
+
+/*Listado */
+.tabla-listado {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.tabla-listado th,.tabla-listado td {
+  border: 1px solid var(--borde-tabla-lista);
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-listado tbody {
+  color: var(--cuerpo-tabla);
+}
+
+.tabla-listado th {
+  background-color: var(--bg-th-listado);
+}
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+
+.small-image {
+    max-width: 160px;
+    height: auto;
+    max-height: 100px;
+}
+
+.add-button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*Formulario añadir reto*/
+
+.formulario-agregar-reto {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg-form-agregar);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+  }
+  .formulario-agregar-reto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+.btn-limpiar-form {
+    background-color: var(--btn-fallo) !important; 
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn-agregar-reto  {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--btn-agregar);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+/*Tabla previsualización*/
+/* Estilos adicionales para la tabla de previsualización */
+.tabla-previsualizacion, .table-tabla-previsualizacion {
+  table-layout: fixed;
+  width: 90%;
+  height: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: var(--bg-tabla-prev);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: var(--txt-tabla-prev);
+  text-align: center;
+}
+
+.tabla-previsualizacion td, .table-tabla-previsualizacion td {
+  height: auto; /* Establece la altura predefinida para las celdas */
+}
+
+.tabla-previsualizacion th, .table-tabla-previsualizacion th{
+  height: 15px; /* Establece la altura predefinida para las celdas */
+  background-color: var(--bg-tabla-prev);
+}
+
+.tabla-previsualizacion img, .table-tabla-previsualizacion img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.tabla-previsualizacion-emojis{
+  width: 30%;
+}
+.emoji-preview{
+  font-size: 50px;
+}
+.tabla-previsualizacion-personaje{
+width: 60%;
+}
+.personaje-preview {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.personaje-preview img {
+  max-width: 100%;
+  max-height: 100%;
+}

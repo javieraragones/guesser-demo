@@ -1,0 +1,1054 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Metrophobic&family=Nanum+Pen+Script&family=Raleway:wght@300;500&family=Rubik:wght@400;600&family=Work+Sans:wght@200;300;400&display=swap');
+  
+  
+  :root{
+  /*---PALETA V2---*/
+  --bg-color: #222831; 
+  --box-color:#393E46; 
+  /*Paleta colores azul y morado*/
+  --primary-100:#00ADB5;
+  --primary-200:#AAE3E2;
+  --primary-300:#fdf6fd;
+  --accent-100: #AC7DD2;
+  --accent-200:#fff4ff;
+  --text-100:#EEEEEE;
+  --text-200:#C5C5C5;
+  --bg-100:#222831;
+  --bg-200:#393E46;
+  --bg-300:#454e59;
+  --bg-color: #26292B ; /*PALETA V2*/
+  --box-color:#2E3239; /*PALETA V2*/
+  --primary-100: #5F7ADB;
+  --accent-100: #A2B2EE;
+  --color-fallo: #FF003A;
+
+
+    /*------------PALETA FINAL------------*/
+    --color-fondo: #1b1c1d;
+    --fondo-titulos:#9e9db4;
+    --txt-header:#fff;
+    --txt-cuadro-texto: #e8e8e8;
+    --bg-color-cuadro-texto:#525459;
+    --enlaces-cuadro-texto:#c0d5dc;
+    --bordes-header:#c0d5dc;
+    --bg-cajas-categorias:#242628;/*#2a2d31*/
+    --h2-color:#fff;
+    --txt-btn-modos: #fff; /*antiguo botón cajas retos*/
+    --bg-btn-modos: #303338;
+    --bg-btn-modos-hover: #9c9bb1;
+    --bg-reto-emojis:#f6f6f6;
+    /*
+    --hover-btn-modos: #43e6fa;
+    --active-btn-modos: red;
+    --border-btn-modos: #80aec9;
+    */
+    --bg-menu-categorias: #525459;
+    --btn-menu-navegacion: red;
+
+    --bg-desplegable-selector-modo: #525459;
+    --border-desplegable-selector-modo: #1b1c1d;
+    --btn-navegacion-imagenes: #959699;
+    --btn-navegacion-imagenes-hover: #9bb3cb;
+    --btn-navegacion-imagenes-active: #9bb3cb;
+
+
+    --borde-input-buscador: #ccc;
+    --bg-resultados-busqueda: #fff;
+    --bg-resultados-busqueda-hover: #f4f4f4;
+    --btn-buscar: #ccc;
+    --btn-buscar-hover: #9bb3cb;
+    --txt-mensaje-acierto: #5ad16e;
+    --txt-mensaje-fallo: #d2214f;
+    --btn-modo-infinito: #ccc;
+    --btn-modo-infinito-hover: #9bb3cb;
+
+    --txt-historial-intentos: #e8e8e8;
+    --bg-historial-fallo: #d2214f;
+    --txt-intentos-restantes: #e8e8e8;
+    --btn-enviar-respuesta: #F0F0F0;
+}
+
+
+
+*{
+    text-align: center;
+}
+body{
+    background-color: var(--color-fondo);
+    padding: 0;
+    margin: 0;
+    font-family: 'kanit', arial;
+}
+
+/* Estilo para el header */
+header {
+    width: 800px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: var(--txt-header);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    text-align: center;
+}
+
+/* Estilo para cada elemento del header */
+.navbar-item {
+  flex: 1;
+  width: 320px;
+}
+
+/* Estilos sección cuenta atrás */
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Rubik', 'Work Sans','metrophobic';
+  }
+.countdown p {
+  margin-left: 0px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+.countdown #countdown-timer {
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: -20px;
+}
+
+/*Estilos logo*/
+.logo {
+  flex: 1;
+  text-align: center;
+}
+.logo a{
+    font-family:'Nanum Pen Script',Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--txt-header);
+}
+
+/*Estilos iconos*/
+.icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.icons a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: var(--txt-header);
+}
+.icons i{
+    font-size: 25px;
+}
+/*Botones header*/
+.cuadroTexto {
+  display: none; /* para ocultar el cuadro de texto inicialmente */
+  width: 400px;
+  height: 450px;
+  color: var(--txt-cuadro-texto);
+  background-color: var(--bg-color-cuadro-texto);
+  padding: 30px;
+  margin: 0 auto; /* para centrar horizontalmente el cuadro de texto */
+  margin-top: -150px; /* para centrar verticalmente el cuadro de texto */
+  position: fixed; /* para posicionar el cuadro de texto en la pantalla */
+  top: 50%; /* para centrar verticalmente el cuadro de texto */
+  left: 50%; /* para centrar horizontalmente el cuadro de texto */
+  transform: translate(-50%, -50%); /* para centrar vertical y horizontalmente el cuadro de texto */
+  text-align: justify; /* para centrar el texto horizontalmente */
+  align-items: left; /* para centrar el texto verticalmente */
+  display: flex; /* para centrar el texto verticalmente */
+  flex-direction: column; /* para centrar el texto verticalmente */
+  border-radius: 10px;
+  border: 2px solid var(--bordes-header);
+}
+
+.cuadroTexto p{
+  text-align: justify;
+}
+.cuadroTexto a{
+  margin-left: 0;
+  background-color: var(--enlaces-cuadro-texto);
+  border-radius: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.btn-header {
+  cursor: pointer;
+}
+.btn-cerrar-header {
+  cursor: pointer;
+  position: absolute; /* para posicionar el botón de cerrar */
+  top: 5px; /* para posicionar el botón de cerrar en la parte superior */
+  right: 5px; /* para posicionar el botón de cerrar en la parte derecha */
+}
+/*Para que no se vean los cuadros de texto durante un momento al recargar la página */
+#cuadroTextoPreg, #cuadroTextoInfo {
+  display: none;
+}
+
+
+/* Estilo para el desplegable de idioma */
+.selected-language{
+  cursor: pointer;
+}
+.selected-language:before{
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.lang-menu{
+  position: relative;
+}
+.lang-menu ul{
+  margin: 0;
+  padding: 0;
+  /*background-color: #645d5d;
+  border: 1px solid #f8f8f8;*/
+  background-color: var(--bg-color-cuadro-texto);
+  border: 1px solid var(--bordes-header);
+  box-shadow: 0px 1px 10px rgba(0,0,0, 0.2);
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 14px;
+  border-radius: 10px;
+}
+.lang-menu li{
+  list-style: none;
+}
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.lang-menu ul li a{
+  width: 100px;
+  display: flex;
+  padding: 4px;
+  margin: 5px;
+  justify-content: left;
+  align-items: center;
+}
+.lang-menu a{
+  text-decoration: none;
+}
+.imagen-idioma{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+
+
+
+/*Fin estilos header*/
+
+
+/*-----------------------------Comienzo estilos cuerpo-----------------------------*/
+
+/*Recuadros modo de juego*/
+.cont-container{
+  margin: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1250px;
+}
+.box {
+  width: 30%;
+  height: 450px;
+  border-radius: 10px;
+  background-color: var(--bg-cajas-categorias);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 300ms;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box:hover {
+  transform: scale(1.13);
+}
+
+
+/*Categorías cajas de modos de juego*/
+
+.secciones{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.secciones ul{
+  list-style: none;
+  background-color: #fff;
+}
+.cont-container{
+  margin-top: 70px;
+}
+.cont-container h2{
+  font-family: 'Rubik','Raleway', 'Work Sans','metrophobic', Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  color: var(--h2-color);
+  margin-top: -27px;
+  margin-bottom: 10px;
+  background-color: var(--fondo-titulos);
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+
+
+.modo-juego-box{
+  margin: 7px auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 30px;
+}
+
+
+/*Estilos botón selector modo de juego*/
+
+.modo-juego-btn {
+  width: 80%;
+  height: auto;
+  margin: 15px ;
+  padding: 10px 20px;
+  border: unset;
+  border-radius: 15px;
+  color: var(--txt-btn-modos);
+  z-index: 1;
+  background: var(--bg-btn-modos);
+  position: relative;
+  font-weight: 1000;
+  font-size: 25px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+.modo-juego-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: var(--bg-btn-modos-hover);
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+.modo-juego-btn:hover {
+  color: #e8e8e8;
+ }
+ 
+ .modo-juego-btn:hover::before {
+  width: 100%;
+ }
+
+/*v2 botones
+.modo-juego-btn {
+  width: 80%;
+  height: auto;
+  margin: 15px ;
+  position: relative;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid var(--border-btn-modos);
+  color: white;
+  background-color: var(--bg-btn-modos);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.modo-juego-btn:hover {
+  border-color: #0974f1;
+  box-shadow: 0 0 20px var(--hover-btn-modos);
+}
+
+.modo-juego-btn:active {
+  box-shadow: 0 0 10px var(--active-btn-modos);
+}
+*/
+.descrip-juego{
+  font-size: 16px;
+}
+
+.modo-juego-btn svg {
+  margin-bottom: 5px; /* Espacio entre el icono y el texto */
+}
+
+
+/*Fin estilos botones selectores de modo de juego*/
+
+
+
+/*-------------------------------------------ESTILOS PÁGINAS JUEGOS/*-------------------------------------------*/
+
+.game-cont {
+    height: 90%; /* Ajusta la altura a tus necesidades */
+}
+
+.game-box{
+  width: 700px;
+  height: 90%;
+  border-radius: 10px;
+  /*background-color: var(--box-color);*/
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 0 auto; /* Centrar  */
+}
+/*Propiedades de la caja que muestra la imagen/emoji/... del reto*/
+.caja-reto{
+  width: 100%;
+  height: 250px;
+  min-height: 250px;
+  background-color: black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.caja-reto-fotogramas{
+  background-color: black !important;
+}
+.caja-reto-personaje{
+  max-height: 600px;
+  max-width: 640px;
+  height: 300px  !important;
+  width: auto !important; 
+}
+/*
+#caja-reto-series-personaje{
+  min-height: 400px !important;
+  width: auto;
+}*/
+/*Estilo para la caja de reto de modo de juego emojis*/
+.reto-emojis{
+  font-size: 80px;
+  background-color: var(--bg-reto-emojis);
+
+}
+
+/*---BARRA NAVEGACION SERIES---*/
+.series-menu{
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: var(--bg-menu-categorias);
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  min-height: 2.5em;
+}
+
+.series-menu-elem1, .series-menu-elem3 {
+  flex: 1;
+}
+.series-menu-elem1{
+  text-align: left;
+}
+.series-menu-elem3{
+  text-align: right;
+}
+
+.series-menu-elem2{
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*estilos botones menu navegacion*/
+.btn-menu-series {
+  font-size: 18px;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-decoration: none;
+}
+
+.btn-menu-series:focus,
+.btn-menu-series:hover {
+  color: #fff;
+}
+
+.btn-menu-series:focus:after,
+.btn-menu-series:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.btn-menu-series:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+.despl-modo-serie option{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-desplegable-selector-modo);
+  border: 1px solid var(--border-desplegable-selector-modo);
+  box-shadow: 0px 1px 10px rgba(0,0,0, 0.2);
+  position: absolute;
+  top: 35px;
+  left: 14px;
+  border-radius: 20px;
+}
+
+/*-------------------------------------Pelicula-------------------------------------*/
+
+.peliculas-menu{
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: var(--bg-menu-categorias);
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  min-height: 2.5em;
+}
+
+.peliculas-menu-elem1, .peliculas-menu-elem3 {
+  flex: 1;
+}
+.peliculas-menu-elem1{
+  text-align: left;
+}
+.peliculas-menu-elem3{
+  text-align: right;
+}
+
+.peliculas-menu-elem2{
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*estilos botones menu navegacion*/
+.btn-menu-peliculas {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-decoration: none;
+}
+
+.btn-menu-peliculas:focus,
+.btn-menu-peliculas:hover {
+  color: #fff;
+}
+
+.btn-menu-peliculas:focus:after,
+.btn-menu-peliculas:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.btn-menu-peliculas:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+.despl-modo-pelicula option{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-desplegable-selector-modo);
+  border: 1px solid var(--border-desplegable-selector-modo);
+  box-shadow: 0px 1px 10px rgba(0,0,0, 0.2);
+  position: absolute;
+  top: 35px;
+  left: 14px;
+  border-radius: 20px;
+}
+/*-------------------------------------Juego-------------------------------------*/
+
+
+.juegos-menu{
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: var(--bg-menu-categorias);
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  min-height: 2.5em;
+}
+
+.juegos-menu-elem1, .juegos-menu-elem3 {
+  flex: 1;
+}
+.juegos-menu-elem1{
+  text-align: left;
+}
+.juegos-menu-elem3{
+  text-align: right;
+}
+
+.juegos-menu-elem2{
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*estilos botones menu navegacion*/
+.btn-menu-juegos {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  text-decoration: none;
+}
+
+.btn-menu-juegos:focus,
+.btn-menu-juegos:hover {
+  color: #fff;
+}
+
+.btn-menu-juegos:focus:after,
+.btn-menu-juegos:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.btn-menu-juegos:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+
+.despl-modo-juego option{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-desplegable-selector-modo);
+  border: 1px solid var(--border-desplegable-selector-modo);
+  box-shadow: 0px 1px 10px rgba(0,0,0, 0.2);
+  position: absolute;
+  top: 35px;
+  left: 14px;
+  border-radius: 20px;
+}
+
+
+
+/*Estilos textos acierto/fallo*/
+.mensaje-envio-respuesta{
+  display: none;
+  height: auto;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  overflow-wrap: break-word; /* Permite que el texto se ajuste a múltiples líneas */
+  word-break: break-word; /* Permite que el texto se rompa en palabras largas */
+  white-space: normal; /* Permite que el texto se ajuste automáticamente al contenedor */
+  max-width: 100%; /* Establece el ancho máximo para evitar que el elemento se desborde */
+}
+/*Estilos historial pistas*/
+.historial-pistas{
+  margin: 1vh 0 1vh 0;
+  height: 40px;
+}
+/*Estilos botones navegación entre pistas*/
+
+/* Agregamos regla CSS para ocultar los botones */
+.boton-navegacion {
+    display: none;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    color: white;
+    width: 40px;
+    height: 40px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: none;
+    background-color: var(--btn-navegacion-imagenes);
+}
+.boton-navegacion:hover {
+  background-color: var(--btn-navegacion-imagenes-hover);
+}
+.boton-navegacion button:active {
+  background-color: var(--btn-navegacion-imagenes-active);
+}
+.zona-invisible{
+  display: none;
+
+  /*visibility: hidden;*/
+}
+
+
+/*---Barra de búsqueda V2---*/
+
+.cuadro-busqueda {
+  display: flex;
+  justify-content: left;
+  margin: 20px 0;
+}
+
+.buscador-container {
+  position: relative;
+  width: 100%;
+}
+
+.input-buscador {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--borde-input-buscador);
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: left;
+  border-radius: 10px 0 0 10px;
+}
+.input-buscador::placeholder {
+  text-align: left;
+  justify-content: left;
+}
+
+
+#resultados-busqueda {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--bg-resultados-busqueda);
+  /*border: 2px solid #ccc;*/
+  border-radius: 10px 0 0 10px;
+
+  border-top: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+#resultados-busqueda ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#resultados-busqueda li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#resultados-busqueda li:hover {
+  background-color: var(--bg-resultados-busqueda-hover);
+}
+
+#resultados-busqueda a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/*Estilos botón enviar*/
+
+.boton-buscar{
+  width: 15%;
+  border: none;
+  border-bottom: 2px solid var(--btn-buscar);
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  background-color: var(--btn-enviar-respuesta);
+}
+.boton-buscar:hover {
+  background-color: var(--btn-buscar-hover); 
+}
+
+
+
+/*Mensajes respuestas*/
+.mensaje {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.mensaje-exito {
+  background-color: var(--txt-mensaje-acierto );
+}
+
+.mensaje-error {
+  background-color: var(--txt-mensaje-fallo);
+}
+
+/* Botones modos de juego infinitos*/
+.botones-modo-infinito{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--btn-modo-infinito);
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px auto 20px auto; 
+}
+
+.botones-modo-infinito:hover {
+  background-color: var(--btn-modo-infinito-hover); 
+}
+
+
+/*---Fin barra de búsqueda---*/
+
+.historial-intentos{
+  color: var(--txt-historial-intentos);
+  max-height: 600px;
+  margin-top: 10px;
+}
+.historial-intentos p {
+  background-color: var(--bg-historial-fallo);
+  border-radius: 10px;
+}
+/*
+.historial-intentos p{
+  justify-content: left;
+  text-align: left ;
+}
+*/
+.intentos-restantes{
+  color: var(--txt-intentos-restantes);
+}
+
+
+/*Historial intentos*/
+
+#historial-intentos{
+  max-height: 300px;
+}
+
+/*-----------------------------Media queries-----------------------------*/
+
+/* Disminuir el ancho de los recuadros en pantallas pequeñas */
+@media screen and (max-width: 1400px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    height: auto;
+    width: 500px;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+  }
+  header{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .cont-container{
+    margin: 30px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+  }
+  .box {
+    width: 90%;
+    padding-bottom: 30px;
+  }
+  header{
+    width: 700px;
+  }
+  body{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cuadroTexto{
+    width: 90%;
+    height: auto;
+  
+    padding: 5px;
+  }
+  .cont-container{
+    margin: 10px auto 10px auto;
+    overflow: auto; /* o overflow: hidden; */
+    width: 90%;
+  }
+  .container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .box {
+    width: 90%;
+    padding-bottom: 30px;
+  }
+  .secciones button, .descrip-juego{
+    font-size: 0.9rem;
+  }
+  header{
+    margin: auto;
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+
+  /*modos de juego*/
+  .game-cont{
+    width: 100%;
+  }
+
+  .game-box{
+    width: 100%;
+  }
+
+  .mensaje-envio-respuesta {
+    font-size: 0.9rem !important;
+  }
+
+  .boton-buscar{
+    font-size: 0.7rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
