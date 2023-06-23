@@ -99,6 +99,27 @@ header {
     text-align: center;
 }
 
+/* Estilo texto DEMO*/
+.header-title {
+  position: relative;
+}
+
+.demo-badge {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: white;
+  font-size: 22px;
+
+  font-family: 'Nanum Pen Script';
+  color: var(--h2-color);
+  background-color: var(--fondo-titulos);
+  border-radius: 15px;
+  padding: 0px 5px;
+}
+
+
+
 /* Estilo para cada elemento del header */
 .navbar-item {
   flex: 1;
