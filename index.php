@@ -10,7 +10,7 @@ require_once './main/header.php';
             <h2>Series</h2>
             <div class="secciones">
 
-                <a href="./series/fotogramaSeries.php">
+                <a href="./series/fotogramaSeriesInfinito.php">
                     <button class="modo-juego-btn btn-series" id="gotoseriesfotograma" type="button" name="Serie-Fotograma">
                         <!--i class="fa fa-camera-retro"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -22,7 +22,7 @@ require_once './main/header.php';
                     </button>
                 </a>
 
-                <a href="./series/emojiSeries.php">
+                <a href="./series/emojiSeriesInfinito.php">
                     <button class="modo-juego-btn btn-series" id="gotoseriesemoji" type="button" name="Serie-Emojis">
                         <!--i class="fas fa-face-grin"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -37,7 +37,7 @@ require_once './main/header.php';
                     </button>
                 </a>
 
-                <a href="./series/personajeSeries.php">
+                <a href="./series/personajeSeriesInfinito.php">
                     <button class="modo-juego-btn btn-series" id="gotoseriespersonaje" type="button" name="Serie-Personaje">
                         <!--i class="fas fa-user"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -58,7 +58,7 @@ require_once './main/header.php';
             <h2>Películas</h2>
             <div class="secciones">
 
-                <a href="./peliculas/fotogramaPeliculas.php">
+                <a href="./peliculas/fotogramaPeliculasInfinito.php">
                     <button class="modo-juego-btn btn-pelicula" id="gotopeliculafotograma" type="button" name="Pelicula-Fotograma">
                         <!--i class="fa fa-camera-retro"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -70,7 +70,7 @@ require_once './main/header.php';
                     </button>
                 </a>
 
-                <a href="./peliculas/emojiPeliculas.php">
+                <a href="./peliculas/emojiPeliculasInfinito.php">
                     <button class="modo-juego-btn btn-pelicula" id="gotopeliculaemoji" type="button" name="Serie-Emojis">
                         <!--i class="fas fa-face-grin"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -85,7 +85,7 @@ require_once './main/header.php';
                     </button>
                 </a>
 
-                <a href="./peliculas/personajePeliculas.php">
+                <a href="./peliculas/personajePeliculasInfinito.php">
                     <button class="modo-juego-btn btn-pelicula" id="gotopeliculapersonaje" type="button" name="Serie-Personaje">
                         <!--i class="fas fa-user"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -107,7 +107,7 @@ require_once './main/header.php';
             <h2>Juegos</h2>
             <div class="secciones">
 
-                <a href="./juegos/fotogramaJuegos.php">
+                <a href="./juegos/fotogramaJuegosInfinito.php">
                     <button class="modo-juego-btn btn-juego" id="gotojuegofotograma" type="button" name="juego-Fotograma">
                         <!--i class="fas fa-face-grin"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -119,7 +119,7 @@ require_once './main/header.php';
                     </button>
                 </a>
 
-                <a href="./juegos/emojiJuegos.php">
+                <a href="./juegos/emojiJuegosInfinito.php">
                     <button class="modo-juego-btn btn-juego" id="gotojuegoemoji" type="button" name="Serie-Emojis">
                         <!--i class="fas fa-face-grin"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">
@@ -134,7 +134,7 @@ require_once './main/header.php';
                     </button>
                 </a>
 
-                <a href="./juegos/personajeJuegos.php">
+                <a href="./juegos/personajeJuegosInfinito.php">
                     <button class="modo-juego-btn btn-juego" id="gotojuegopersonaje" type="button" name="Serie-Personaje">
                         <!--i class="fas fa-user"></!--i-->
                         <svg width="36" height="36" fill="none" viewBox="0 0 24 24">

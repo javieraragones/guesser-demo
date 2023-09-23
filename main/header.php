@@ -77,10 +77,10 @@
           </div>
           <ul>
             <li>
-              <a href="#" class="es"><img src="estilos\imagenes\espana.png" alt="bandera España" class="imagen-idioma"> Español</a>
+              <a href="#" class="es"><img src="/Guesser-Demo/imagenes/espana.png" alt="bandera España" class="imagen-idioma"> Español</a>
             </li>
             <li>
-              <a href="#" class="us"><img src="estilos\imagenes\estados-unidos.png" alt="bandera España" class="imagen-idioma"> English</a>
+              <a href="#" class="us"><img src="/Guesser-Demo/imagenes/estados-unidos.png" alt="bandera España" class="imagen-idioma"> English</a>
             </li>
           </ul>
         </div>

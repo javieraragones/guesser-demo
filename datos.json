@@ -1,0 +1,399 @@
+{
+    "emojis_juego": [
+        {
+            "id": "1",
+            "nombre": "Plants vs. Zombies",
+            "emoji": "\ud83c\udf3b\ud83c\udf35\ud83c\udf1e\ud83e\udddf\u200d\u2642\ufe0f",
+            "fecha": "2023-05-25"
+        },
+        {
+            "id": "2",
+            "nombre": "Fruit Ninja",
+            "emoji": "\ud83c\udf49\ud83c\udf4d\ud83d\udd2a\ud83d\udc31\u200d\ud83d\udc64",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Angry Birds",
+            "emoji": "\ud83d\udc26\ud83d\udca5\ud83c\udfaf\ud83d\ude21",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "Rocket League",
+            "emoji": "\ud83d\ude80\ud83d\ude97\u26bd\ud83e\udd45",
+            "fecha": "2023-05-29"
+        },
+        {
+            "id": "5",
+            "nombre": "8 Ball Pool",
+            "emoji": "8\ufe0f\u20e3\ud83e\udd4e\ud83c\udfca\u200d\u2642\ufe0f",
+            "fecha": "2023-05-28"
+        }
+    ],
+    "emojis_pelicula": [
+        {
+            "id": "1",
+            "nombre": "Cars",
+            "emoji": "\ud83c\udfc1\ud83c\udf43\u26fd\ufe0f\ud83d\ude97",
+            "fecha": "2023-05-25"
+        },
+        {
+            "id": "2",
+            "nombre": "La M\u00e1scara",
+            "emoji": "\ud83d\udc36\ud83e\udd13\ud83d\udc7a\ud83e\udd2a\ud83d\udd7a",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Solo en casa",
+            "emoji": "\ud83c\udfe0\ud83d\ude48\ud83c\udf84",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "Up",
+            "emoji": "\ud83c\udf88\ud83c\udfe0\ud83d\udc36\ud83d\udc74\ud83c\udffb",
+            "fecha": "2023-05-28"
+        },
+        {
+            "id": "5",
+            "nombre": "Spider-Man: Homecoming",
+            "emoji": "\ud83d\udd77\ud83e\uddb8\u200d\u2640\ufe0f\ud83c\udfeb\ud83d\udc77\ud83c\udffb\ud83e\udd85",
+            "fecha": "2023-05-29"
+        }
+    ],
+    "emojis_serie": [
+        {
+            "id": "1",
+            "nombre": "The Office",
+            "emoji": "\ud83d\udc54\ud83e\udd13\ud83d\udce0\ud83d\udcce\ud83d\udcbb",
+            "fecha": "2023-06-22"
+        },
+        {
+            "id": "2",
+            "nombre": "Breaking Bad",
+            "emoji": "\ud83c\udf35\ud83e\udd13\ud83e\uddea\ud83d\udc8a\ud83d\udcb0",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Suits",
+            "emoji": "\ud83d\udc68\ud83d\udc66\u2696\ufe0f\ud83d\udc54",
+            "fecha": "2023-05-29"
+        },
+        {
+            "id": "4",
+            "nombre": "The Walking Dead",
+            "emoji": "\ud83d\udc6e\ud83c\udffb\ud83c\udfc3\ud83e\udddf\u200d\u2694\ufe0f\ud83d\ude97",
+            "fecha": "2023-06-23"
+        },
+        {
+            "id": "5",
+            "nombre": "Lost",
+            "emoji": "\u2708\ufe0f\ud83c\udfdd\u26fa\ud83c\udd98\u2753",
+            "fecha": "2023-05-28"
+        },
+        {
+            "id": "7",
+            "nombre": "The Big Bang Theory",
+            "emoji": "\ud83c\udf0d\ud83d\udcbb\u2697\ud83d\udd2d",
+            "fecha": "2023-05-31"
+        },
+        {
+            "id": "9",
+            "nombre": "Mr. Robot",
+            "emoji": "\ud83d\udc68\u200d\ud83d\udcbb\ud83e\udd16\u2694\ufe0f\ud83d\ude08",
+            "fecha": "2023-05-30"
+        }
+    ],
+    "fotogramas_juego": [
+        {
+            "id": "1",
+            "nombre": "Elden Ring",
+            "img1": "https:\/\/sm.ign.com\/t\/ign_es\/photo\/default\/eldenring-07-4k-1623357441325_gbp4.1080.jpg",
+            "img2": "https:\/\/sm.ign.com\/t\/ign_es\/photo\/default\/eldenring-14-4k-1623357441327_4cau.1080.jpg",
+            "img3": "https:\/\/sm.ign.com\/t\/ign_es\/photo\/default\/eldenring-10-4k-1623357441333_kc12.1080.jpg",
+            "img4": "https:\/\/sm.ign.com\/t\/ign_es\/photo\/default\/eldenring-06-4k-1623357441337_8vty.1080.jpg",
+            "img5": "https:\/\/sm.ign.com\/t\/ign_es\/photo\/default\/eldenring-02-4k-1623357441329_3ync.1080.jpg",
+            "img6": "https:\/\/sm.ign.com\/t\/ign_es\/photo\/default\/eldenring-01-4k-1623357441326_ukup.1080.jpg",
+            "fecha": "2023-05-25"
+        },
+        {
+            "id": "2",
+            "nombre": "Uncharted 4",
+            "img1": "https:\/\/areajugones.sport.es\/wp-content\/uploads\/2016\/05\/uncharted4_athiefsendypox3.png",
+            "img2": "https:\/\/areajugones.sport.es\/wp-content\/uploads\/2016\/05\/uncharted4_athiefsend7osqd.png",
+            "img3": "https:\/\/areajugones.sport.es\/wp-content\/uploads\/2016\/05\/tyYOs6C.jpg",
+            "img4": "https:\/\/areajugones.sport.es\/wp-content\/uploads\/2016\/05\/1463167836-uncharted-tm-4-a-thief-s-end-20160513210435.png",
+            "img5": "https:\/\/areajugones.sport.es\/wp-content\/uploads\/2016\/05\/CihmavGXAAI2-yL.jpg",
+            "img6": "https:\/\/areajugones.sport.es\/wp-content\/uploads\/2016\/05\/uncharted4_athiefsend2hk4j.png",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "The Last of Us",
+            "img1": "https:\/\/media.vandalimg.com\/i\/220x124\/120665\/the-last-of-us-parte-i-202261013255064_1.jpg",
+            "img2": "https:\/\/media.vandalimg.com\/i\/220x124\/120665\/the-last-of-us-parte-i-202261013255064_5.jpg",
+            "img3": "https:\/\/media.vandalimg.com\/i\/220x124\/120665\/the-last-of-us-parte-i-202261013255064_3.jpg",
+            "img4": "https:\/\/media.vandalimg.com\/i\/220x124\/120666\/the-last-of-us-parte-i-202212913181771_5.jpg",
+            "img5": "https:\/\/media.vandalimg.com\/i\/220x124\/120666\/the-last-of-us-parte-i-202212913181771_11.jpg",
+            "img6": "https:\/\/media.vandalimg.com\/i\/220x124\/120666\/the-last-of-us-parte-i-202212913181771_6.jpg",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "God of War",
+            "img1": "https:\/\/media.vandalimg.com\/i\/220x124\/27407\/god-of-war-2018319161748_11.jpg",
+            "img2": "https:\/\/media.vandalimg.com\/i\/220x124\/27407\/god-of-war-201859182513_5.jpg",
+            "img3": "https:\/\/media.vandalimg.com\/i\/220x124\/27407\/god-of-war-201859182634_6.jpg",
+            "img4": "https:\/\/media.vandalimg.com\/i\/220x124\/27407\/god-of-war-2018810114620_2.jpg",
+            "img5": "https:\/\/media.vandalimg.com\/i\/220x124\/109060\/god-of-war-2021102017141059_2.jpg",
+            "img6": "https:\/\/media.vandalimg.com\/i\/220x124\/27407\/god-of-war-201859182513_1.jpg",
+            "fecha": "2023-05-28"
+        },
+        {
+            "id": "5",
+            "nombre": "Portal 2",
+            "img1": "https:\/\/media.vandalimg.com\/t200\/37336\/portal-2-exhumaos-201639104910_4.jpg",
+            "img2": "https:\/\/media.vandalimg.com\/t200\/12160\/201122820281_11.jpg",
+            "img3": "https:\/\/media.vandalimg.com\/t200\/12160\/201122820281_4.jpg",
+            "img4": "https:\/\/media.vandalimg.com\/t200\/12160\/201122820281_8.jpg",
+            "img5": "https:\/\/media.vandalimg.com\/t200\/12160\/2011121113438_3.jpg",
+            "img6": "https:\/\/media.vandalimg.com\/t200\/12160\/2011121113438_1.jpg",
+            "fecha": "2023-05-29"
+        }
+    ],
+    "fotogramas_pelicula": [
+        {
+            "id": "1",
+            "nombre": "Spider-Man",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/70bb8570f5e711eab5c010ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/37e407eef5e811eab5c010ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/d523ad02f5e811eab5c010ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/60f4ea30f5e911eab5c010ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/44e3e3faf5e911eab5c010ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/04c46efcf5e911eab5c010ddb1aba44f.jpeg",
+            "fecha": "2023-05-25"
+        },
+        {
+            "id": "2",
+            "nombre": "Joker",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/86d07298186111ebb16110ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/b54cb99c186111ebb16110ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/c6c92920186211ebb16110ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/c0dd1d2a185b11ebb16110ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/0749d280185c11ebb16110ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/ae9cd76e186411ebb16110ddb1aba44f.jpeg",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Top Gun: Maverick",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/3899875e642a11ed8c120612238522d6.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/5907f517642a11ed8c120612238522d6.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/4cd30c5d642c11ed8c120612238522d6.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/e8f7d611642a11ed8c120612238522d6.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/b695b5d9642a11ed8c120612238522d6.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/2d2a4170642b11ed8c120612238522d6.jpeg",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "Dune",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/f9957cca12e311eb84d610ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/39abf10412e411eb84d610ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/4ebaa96412e411eb84d610ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/a9084ec212e311eb84d610ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/e4f4612812e311eb84d610ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/949622ca12e311eb84d610ddb1aba44f.jpeg",
+            "fecha": "2023-05-28"
+        },
+        {
+            "id": "5",
+            "nombre": "Spider-Man: No Way Home",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/a48d5cee01d311eda58510ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/55231e7e01d211eda58510ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/d6409ff401d211eda58510ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/7516b85001d011eda58510ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/f662e6ac01d211eda58510ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/1b7ddee201d311eda58510ddb1aba44f.jpeg",
+            "fecha": "2023-05-29"
+        }
+    ],
+    "fotogramas_serie": [
+        {
+            "id": "1",
+            "nombre": "Arcane",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/d9cf518864bb11ecb28810ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/e15f080264bc11ecb28810ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/d6bf9d9a6cdb11eca10110ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/c92175426ce411eca10110ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/e7c187b264b511ecb28810ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/7b8e63d66cfc11ec9e4b10ddb1aba44f.jpeg",
+            "fecha": "2023-06-23"
+        },
+        {
+            "id": "2",
+            "nombre": "The Witcher",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/0d945254849a11ec98dd10ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/ad82777c849b11ec98dd10ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/ee6e9198849c11ec98dd10ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/748ff4ba848911ec98dd10ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/2dff2a90848711ec98dd10ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/332d8774849011ec98dd10ddb1aba44f.jpeg",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Breaking Bad",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/067d81566e1111eca18510ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/c141e76e6e1811eca18510ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/ce2b131a6e1811eca18510ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/cdb13de06e1511eca18510ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/cac8e8c86e1311eca18510ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/e3fd19a06e1211eca18510ddb1aba44f.jpeg",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "Chernobyl",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/91f258fa011a11ed9f7d10ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/eb0b303c012011ed9f7d10ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/b37dd42e011811ed9f7d10ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/141efe6c011811ed9f7d10ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/50227cba011611ed9f7d10ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/2dd8032c011c11ed9f7d10ddb1aba44f.jpeg",
+            "fecha": "2023-05-28"
+        },
+        {
+            "id": "5",
+            "nombre": "Stranger Things",
+            "img1": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/7e4611cae8d811ec9d1910ddb1aba44f.jpeg",
+            "img2": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/939d4de6e8d711ec9d1910ddb1aba44f.jpeg",
+            "img3": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/471f5514e8c211ec9d1910ddb1aba44f.jpeg",
+            "img4": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/f1cf157ce8c111ec9d1910ddb1aba44f.jpeg",
+            "img5": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/4d3f31b4e8d911ec9d1910ddb1aba44f.jpeg",
+            "img6": "https:\/\/flim-1-0-2.s3.eu-central-1.amazonaws.com\/thumbs\/thumbnail\/92b4210ceca111ecb4eb10ddb1aba44f.jpeg",
+            "fecha": "2023-05-29"
+        }
+    ],
+    "personajes_juego": [
+        {
+            "id": "1",
+            "nombre": "Sonic",
+            "nombre_juego": "Sonic",
+            "img": "https:\/\/cdn.hobbyconsolas.com\/sites\/navi.axelspringer.es\/public\/media\/image\/2022\/11\/sonic-frontiers-2864625.jpg?tf=3840x",
+            "fecha": "2023-05-25"
+        },
+        {
+            "id": "2",
+            "nombre": "Crash Bandicoot",
+            "nombre_juego": "Crash Bandicoot",
+            "img": "https:\/\/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com\/public\/2SUPBJOGVNDHRHTHDGGMBRUQ7M.jpg",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Mario",
+            "nombre_juego": "Super Mario Bros",
+            "img": "https:\/\/i.blogs.es\/b32659\/mario\/1366_2000.jpeg",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "Lara Croft",
+            "nombre_juego": "Tomb Raider",
+            "img": "https:\/\/tierragamer.com\/wp-content\/uploads\/2020\/07\/Lara-Croft-Tomb-Raider-Lesbiana.jpg",
+            "fecha": "2023-05-28"
+        },
+        {
+            "id": "5",
+            "nombre": "Solid Snake",
+            "nombre_juego": "Metal Gear",
+            "img": "https:\/\/assetsio.reedpopcdn.com\/super_smash_solid_snake_450x300.jpg.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+            "fecha": "2023-05-30"
+        },
+        {
+            "id": "6",
+            "nombre": "Kratos",
+            "nombre_juego": "God of War",
+            "img": "https:\/\/media.vandal.net\/i\/1200x630\/27407\/god-of-war-201711112176_1.jpg",
+            "fecha": "2023-05-29"
+        }
+    ],
+    "personajes_pelicula": [
+        {
+            "id": "1",
+            "nombre": "Tony Montana",
+            "nombre_pelicula": "Scarface",
+            "img": "https:\/\/cloudfront-us-east-1.images.arcpublishing.com\/infobae\/AU26WJKLD5GDBA5RGARUJVV37E.jpg",
+            "fecha": "2023-05-25"
+        },
+        {
+            "id": "2",
+            "nombre": "Rocky Balboa",
+            "nombre_pelicula": "Rocky Balboa",
+            "img": "https:\/\/media.gq.com.mx\/photos\/5ebcabaafc5059515dd87b93\/16:9\/pass\/FOTOO%20PORTADA.png",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Batman",
+            "nombre_pelicula": "DC Comics",
+            "img": "https:\/\/cloudfront-us-east-1.images.arcpublishing.com\/metroworldnews\/OMMXHLDAABDBVHRUH2FPDLVZCY.jpg",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "James Bond",
+            "nombre_pelicula": "James Bond",
+            "img": "https:\/\/i.blogs.es\/004ab0\/james-bond-omega-destacada\/1366_2000.jpeg",
+            "fecha": "2023-05-29"
+        },
+        {
+            "id": "5",
+            "nombre": "Iron Man",
+            "nombre_pelicula": "Iron Man",
+            "img": "https:\/\/lumiere-a.akamaihd.net\/v1\/images\/iron_man_marvel_d9ce0209.jpeg?region=64%2C0%2C712%2C400",
+            "fecha": "2023-05-28"
+        }
+    ],
+    "personajes_serie": [
+        {
+            "id": "1",
+            "nombre": "Sheldon Cooper",
+            "nombre_serie": "The Big Bang Theory",
+            "img": "https:\/\/cdn.hobbyconsolas.com\/sites\/navi.axelspringer.es\/public\/media\/image\/2020\/03\/sheldon-cooper-1902835.jpeg?tf=3840x",
+            "fecha": "2023-05-25"
+        },
+        {
+            "id": "2",
+            "nombre": "Ellie",
+            "nombre_serie": "The Last of Us",
+            "img": "https:\/\/cdn.hobbyconsolas.com\/sites\/navi.axelspringer.es\/public\/media\/image\/2022\/11\/last-us-2888538.jpg?tf=3840x",
+            "fecha": "2023-05-26"
+        },
+        {
+            "id": "3",
+            "nombre": "Lisa Simpson",
+            "nombre_serie": "Los Simpson",
+            "img": "https:\/\/www.latercera.com\/resizer\/kUrYhV1e4UpyE33JZ_HhgwRk2t8=\/900x600\/smart\/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com\/public\/46P3CPCZCFDE7LETEJM2RQANJQ.jpg",
+            "fecha": "2023-05-27"
+        },
+        {
+            "id": "4",
+            "nombre": "John Locke",
+            "nombre_serie": "Lost",
+            "img": "https:\/\/collective.world\/wp-content\/uploads\/sites\/3\/2022\/03\/Iconic-Inspirational-Lessons-From-Losts-John-Locke-e1646672474503.png?w=1536&h=768&crop=1",
+            "fecha": "2023-05-28"
+        },
+        {
+            "id": "5",
+            "nombre": "Chandler Bing",
+            "nombre_serie": "Friends",
+            "img": "https:\/\/imagenes.20minutos.es\/files\/image_990_v3\/uploads\/imagenes\/2019\/09\/30\/chandler_1.jpg",
+            "fecha": "2023-05-29"
+        }
+    ]
+}
